@@ -93,6 +93,8 @@ func main() {
 	flag.IntVar(&max, "max", 30, "Maximum output word count.")
 	flag.StringVar(&fname, "filename", "corpus.txt", "path to file containing corpus data")
 
+	flag.Parse()
+
 	raw, err := LoadFile(fname)
 	if err != nil {
 		log.Fatalf("%s", err)
