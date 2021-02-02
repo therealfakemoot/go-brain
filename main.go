@@ -10,7 +10,6 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
-	"strings"
 
 	m "github.com/therealfakemoot/gomarkov"
 )
@@ -41,70 +40,8 @@ func LoadFile(fn string) (string, error) {
 	return string(b), nil
 }
 
-// W builds a closure that fits the WalkFunc signature so you can recursively load corpus files.
-func W(c *m.Chain) filepath.WalkFunc {
-	wf := func(path string, info os.FileInfo, err error) error {
-		if info.IsDir() {
-			return nil
-		}
-
-		if err != nil {
-			log.Printf("Unable to walk %s.\n", path)
-			return err
-		}
-
-		// raw, err := LoadFile(path)
-		f, err := os.Open(path)
-		defer f.Close()
-		if err != nil {
-			log.Printf("Unable to open file %s: %s\n", path, err)
-			return err
-		}
-
-		var (
-			s       string
-			entries []string
-		)
-
-		for {
-			if _, err := fmt.Fscan(f, &s); err != nil {
-				break
-			}
-			entries = append(entries, s)
-		}
-		c.Add(Normalize(entries))
-		return nil
-	}
-	return wf
-}
-
 func wiggle(low, high int) int {
 	return rand.Intn(high) + low
-}
-
-func Text(c *m.Chain, x, y int) string {
-
-	tokens := m.NGram{m.StartToken}
-
-	for i := 0; i < wiggle(x, y); i++ {
-		lastIndex := len(tokens) - 1
-		var seed m.NGram
-		seed = append(seed, tokens[lastIndex:lastIndex+c.Order]...)
-		/*
-			for _, t := range tokens[lastIndex : lastIndex+c.Order] {
-								seed = append(seed, t)
-											}
-		*/
-		n, err := c.Generate(seed)
-		if err != nil {
-			fmt.Printf("%s", err)
-		}
-		if n == " " {
-			i--
-		}
-		tokens = append(tokens, n)
-	}
-	return strings.Join(tokens[1:len(tokens)-1], " ")
 }
 
 func main() {
@@ -115,27 +52,19 @@ func main() {
 	flag.IntVar(&min, "min", 30, "Minimum output word count.")
 	flag.IntVar(&max, "max", 90, "Maximum output word count.")
 	flag.StringVar(&walkdir, "walkdir", ".", "path to directory containing corpus data")
-	flag.StringVar(&brainpath, "brainpath", "", "path to file containing a brain")
+	flag.StringVar(&brainpath, "brainpath", "default.brain", "path to file containing a brain")
 
 	flag.Parse()
 
 	var c *m.Chain
 
-	if brainpath != "" {
-		brain, err := os.Open(brainpath)
-		defer brain.Close()
-		if err == os.ErrNotExist {
-			log.Fatalf("brain doesn't exist for loading: %s", err)
-		}
-		if err != nil {
-			log.Fatalf("error loading brain file: %s", err)
-		}
+	brain, err := os.OpenFile(brainpath, os.O_RDWR|os.O_CREATE, 0755)
+	defer brain.Close()
 
-		dec := json.NewDecoder(brain)
-		err = dec.Decode(c)
-		if err != nil {
-			log.Fatalf("couldn't load brain into []byte: %s", err)
-		}
+	dec := json.NewDecoder(brain)
+	err = dec.Decode(c)
+	if err != nil {
+		log.Fatalf("couldn't load brain into []byte: %#v", err)
 	}
 	c = m.NewChain(order)
 
