@@ -12,7 +12,7 @@ import (
 	"regexp"
 	"time"
 
-	m "github.com/therealfakemoot/gomarkov"
+	cb "github.com/therealfakemot/copy-bot"
 )
 
 // Normalize takes an input string and returns a slice of whitespace spearated words in all lowercase with all punctuation removed.
@@ -46,8 +46,8 @@ func wiggle(low, high int) int {
 }
 
 // LoadBrain loads a brain from a file or creates an empty one with the given order.
-func LoadBrain(fn string, order int) (*m.Chain, error) {
-	var c *m.Chain
+func LoadBrain(fn string, order int) (*cb.Chain, error) {
+	var c *cb.Chain
 
 	brain, err := os.OpenFile(fn, os.O_RDWR|os.O_CREATE, 0755)
 	if err != nil {
@@ -67,7 +67,7 @@ func LoadBrain(fn string, order int) (*m.Chain, error) {
 			log.Fatalf("couldn't load brain into []byte: %#v\n", err)
 		}
 	}
-	c = m.NewChain(order)
+	c = cb.NewChain(order)
 
 	return c, nil
 }
@@ -85,9 +85,17 @@ func main() {
 	flag.Parse()
 
 	rand.Seed(time.Now().UnixNano())
-	c := NewChain(2)
+	c, err := LoadBrain(brainpath, order)
+	if err != nil {
+		log.Fatalf("error loading or creating brain: %#v", err)
+	}
 	wf := W(c)
 	filepath.Walk(walkdir, wf)
+
+	f, err := os.OpenFile(brainpath, os.O_RDWR|os.O_CREATE, 0755)
+	if err != nil {
+		log.Fatalf("couldn't open brain file: %#v\n", err)
+	}
 
 	fmt.Println(c.Generate(35))
 }
