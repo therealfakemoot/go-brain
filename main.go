@@ -84,26 +84,6 @@ func main() {
 
 	flag.Parse()
 
-	/*
-		c, err := LoadBrain(brainpath, order)
-
-		filepath.Walk(walkdir, wf)
-			raw, err := LoadFile(fname)
-			if err != nil {
-				log.Fatalf("%s\n", err)
-			}
-			corpus := Normalize(raw)
-			c.Add(corpus)
-
-		fmt.Println(Text(c, min, max))
-		f, err := os.OpenFile(brainpath, os.O_RDWR|os.O_CREATE, 0755)
-		if err != nil {
-			log.Fatalf("couldn't open brain file for dumping: %s\n", err)
-		}
-		enc := json.NewEncoder(f)
-		enc.Encode(c)
-	*/
-
 	rand.Seed(time.Now().UnixNano())
 	c := NewChain(2)
 	wf := W(c)
