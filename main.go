@@ -10,6 +10,7 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
+	"time"
 
 	m "github.com/therealfakemoot/gomarkov"
 )
@@ -44,6 +45,33 @@ func wiggle(low, high int) int {
 	return rand.Intn(high) + low
 }
 
+// LoadBrain loads a brain from a file or creates an empty one with the given order.
+func LoadBrain(fn string, order int) (*m.Chain, error) {
+	var c *m.Chain
+
+	brain, err := os.OpenFile(fn, os.O_RDWR|os.O_CREATE, 0755)
+	if err != nil {
+		log.Fatalf("couldn't open brain file: %#v\n", err)
+	}
+	defer brain.Close()
+
+	stat, err := brain.Stat()
+	if err != nil {
+		log.Fatalf("couldn't stat brain file: %#v\n", err)
+	}
+
+	if stat.Size() > 0 {
+		dec := json.NewDecoder(brain)
+		err = dec.Decode(c)
+		if err != nil {
+			log.Fatalf("couldn't load brain into []byte: %#v\n", err)
+		}
+	}
+	c = m.NewChain(order)
+
+	return c, nil
+}
+
 func main() {
 	var walkdir, brainpath string
 	var order, min, max int
@@ -56,34 +84,30 @@ func main() {
 
 	flag.Parse()
 
-	var c *m.Chain
-
-	brain, err := os.OpenFile(brainpath, os.O_RDWR|os.O_CREATE, 0755)
-	defer brain.Close()
-
-	dec := json.NewDecoder(brain)
-	err = dec.Decode(c)
-	if err != nil {
-		log.Fatalf("couldn't load brain into []byte: %#v", err)
-	}
-	c = m.NewChain(order)
-
-	wf := W(c)
-	filepath.Walk(walkdir, wf)
 	/*
-		raw, err := LoadFile(fname)
+		c, err := LoadBrain(brainpath, order)
+
+		filepath.Walk(walkdir, wf)
+			raw, err := LoadFile(fname)
+			if err != nil {
+				log.Fatalf("%s\n", err)
+			}
+			corpus := Normalize(raw)
+			c.Add(corpus)
+
+		fmt.Println(Text(c, min, max))
+		f, err := os.OpenFile(brainpath, os.O_RDWR|os.O_CREATE, 0755)
 		if err != nil {
-			log.Fatalf("%s", err)
+			log.Fatalf("couldn't open brain file for dumping: %s\n", err)
 		}
-		corpus := Normalize(raw)
-		c.Add(corpus)
+		enc := json.NewEncoder(f)
+		enc.Encode(c)
 	*/
 
-	fmt.Println(Text(c, min, max))
-	f, err := os.OpenFile(brainpath, os.O_RDWR|os.O_CREATE, 0755)
-	if err != nil {
-		log.Fatalf("couldn't open brain file for dumping: %s", err)
-	}
-	enc := json.NewEncoder(f)
-	enc.Encode(c)
+	rand.Seed(time.Now().UnixNano())
+	c := NewChain(2)
+	wf := W(c)
+	filepath.Walk(walkdir, wf)
+
+	fmt.Println(c.Generate(35))
 }
