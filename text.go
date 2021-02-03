@@ -1,11 +1,16 @@
-package main
+package chain
 
 import (
 	"fmt"
+	"math/rand"
 	"strings"
 
 	m "github.com/therealfakemoot/gomarkov"
 )
+
+func wiggle(low, high int) int {
+	return rand.Intn(high) + low
+}
 
 func Text(c *m.Chain, x, y int) string {
 

@@ -12,7 +12,7 @@ import (
 	"regexp"
 	"time"
 
-	cb "github.com/therealfakemot/copy-bot"
+	cb "github.com/therealfakemoot/copy-bot"
 )
 
 // Normalize takes an input string and returns a slice of whitespace spearated words in all lowercase with all punctuation removed.
@@ -41,10 +41,6 @@ func LoadFile(fn string) (string, error) {
 	return string(b), nil
 }
 
-func wiggle(low, high int) int {
-	return rand.Intn(high) + low
-}
-
 // LoadBrain loads a brain from a file or creates an empty one with the given order.
 func LoadBrain(fn string, order int) (*cb.Chain, error) {
 	var c *cb.Chain
@@ -60,11 +56,23 @@ func LoadBrain(fn string, order int) (*cb.Chain, error) {
 		log.Fatalf("couldn't stat brain file: %#v\n", err)
 	}
 
+	// check if the file is empty. if not, attempt to load
 	if stat.Size() > 0 {
 		dec := json.NewDecoder(brain)
 		err = dec.Decode(c)
 		if err != nil {
-			log.Fatalf("couldn't load brain into []byte: %#v\n", err)
+
+			err, ok := err.(*json.InvalidUnmarshalError)
+
+			if !ok {
+				return c, fmt.Errorf("couldn't load brain into []byte: %#v\n", err)
+			}
+
+			// this is happening because sometimes loading the brain throws a weird json error
+			// where it only contains a pointer to a reflect.Type
+			// return c, fmt.Errorf("error unmarshaling %s.%s: %w", err.Type.PkgPath(), err.Type.Name(), err)
+			return c, fmt.Errorf("error unmarshaling: %w", err)
+
 		}
 	}
 	c = cb.NewChain(order)
@@ -74,28 +82,29 @@ func LoadBrain(fn string, order int) (*cb.Chain, error) {
 
 func main() {
 	var walkdir, brainpath string
-	var order, min, max int
+	var order int
 
-	flag.IntVar(&order, "order", 1, "Ordinality of Markov chains.")
-	flag.IntVar(&min, "min", 30, "Minimum output word count.")
-	flag.IntVar(&max, "max", 90, "Maximum output word count.")
+	flag.IntVar(&order, "order", 2, "Ordinality of Markov chains.")
 	flag.StringVar(&walkdir, "walkdir", ".", "path to directory containing corpus data")
 	flag.StringVar(&brainpath, "brainpath", "default.brain", "path to file containing a brain")
 
 	flag.Parse()
 
 	rand.Seed(time.Now().UnixNano())
-	c, err := LoadBrain(brainpath, order)
-	if err != nil {
-		log.Fatalf("error loading or creating brain: %#v", err)
-	}
-	wf := W(c)
+	c := cb.NewChain(order)
+	wf := cb.W(c)
 	filepath.Walk(walkdir, wf)
 
-	f, err := os.OpenFile(brainpath, os.O_RDWR|os.O_CREATE, 0755)
+	// f, err := os.OpenFile(brainpath, os.O_RDWR|os.O_CREATE, 0644)
+	// if err != nil {
+	// log.Fatalf("couldn't open brain file: %#v\n", err)
+	// }
+	enc := json.NewEncoder(os.Stdout)
+	err := enc.Encode(c)
 	if err != nil {
-		log.Fatalf("couldn't open brain file: %#v\n", err)
+		log.Fatalf("error encoding brain: %#v\n", err)
 	}
 
-	fmt.Println(c.Generate(35))
+	// fmt.Printf("%#v\n", c)
+	// fmt.Println(c.Generate(15))
 }

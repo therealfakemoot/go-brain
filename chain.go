@@ -1,4 +1,4 @@
-package main
+package chain
 
 import (
 	"bufio"
@@ -27,8 +27,8 @@ func (p Prefix) Shift(word string) {
 // A prefix is a string of prefixLen words joined with spaces.
 // A suffix is a single word. A prefix can have multiple suffixes.
 type Chain struct {
-	chain     map[string][]string
-	prefixLen int
+	Chain     map[string][]string
+	PrefixLen int
 }
 
 // NewChain returns a new Chain with prefixes of prefixLen words.
@@ -40,7 +40,7 @@ func NewChain(prefixLen int) *Chain {
 // parses it into prefixes and suffixes that are stored in Chain.
 func (c *Chain) Build(r io.Reader) {
 	br := bufio.NewReader(r)
-	p := make(Prefix, c.prefixLen)
+	p := make(Prefix, c.PrefixLen)
 	for {
 		var s string
 		if _, err := fmt.Fscan(br, &s); err != nil {
@@ -48,17 +48,17 @@ func (c *Chain) Build(r io.Reader) {
 			break
 		}
 		key := p.String()
-		c.chain[key] = append(c.chain[key], s)
+		c.Chain[key] = append(c.Chain[key], s)
 		p.Shift(s)
 	}
 }
 
 // Generate returns a string of at most n words generated from Chain.
 func (c *Chain) Generate(n int) string {
-	p := make(Prefix, c.prefixLen)
+	p := make(Prefix, c.PrefixLen)
 	var words []string
 	for i := 0; i < n; i++ {
-		choices := c.chain[p.String()]
+		choices := c.Chain[p.String()]
 		if len(choices) == 0 {
 			break
 		}
