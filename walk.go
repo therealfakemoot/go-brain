@@ -13,13 +13,13 @@ import (
 // W builds a closure that fits the WalkFunc signature so you can recursively load corpus files.
 func W(c *Chain) filepath.WalkFunc {
 	wf := func(path string, info os.FileInfo, err error) error {
-		if info.IsDir() {
-			return nil
-		}
-
 		if err != nil {
 			log.Printf("Unable to walk %s.\n", path)
 			return err
+		}
+
+		if info.IsDir() {
+			return nil
 		}
 
 		f, err := os.Open(path)
