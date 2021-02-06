@@ -7,28 +7,10 @@ import (
 	"math/rand"
 	"os"
 	"path/filepath"
-	"regexp"
 	"time"
 
 	cb "github.com/therealfakemoot/copy-bot"
 )
-
-// Normalize takes an input string and returns a slice of whitespace spearated words in all lowercase with all punctuation removed.
-func Normalize(entries []string) []string {
-	var res []string
-	// This regex is neat. \p{L} means "any letter in any language". \p{Z} means "any whitespace character in any unicode language". I'm using these so the markov engine can be 100% unicode friendly and language agnostic.
-	reg := regexp.MustCompile(`[^\p{L}\p{Z}]+`)
-	for _, e := range entries {
-		split := reg.Split(e, -1)
-		for _, w := range split {
-			res = append(res, w)
-		}
-		// res[0] = reg.ReplaceAllString(
-		//words := strings.Split(strings.ToLower(reg.ReplaceAllString(s, "")), " ")
-	}
-	return res
-
-}
 
 func main() {
 	var corpus, brainpath string
