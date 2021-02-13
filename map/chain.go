@@ -2,7 +2,7 @@ package mapbrain
 
 import (
 	"bufio"
-	"fmt"
+	// "fmt"
 	"io"
 	// "log"
 	"math/rand"
@@ -57,18 +57,18 @@ func NewBrain(prefixLen int) Chain {
 // Build reads text from the provided Reader and
 // parses it into prefixes and suffixes that are stored in Chain.
 func (c *Chain) Learn(r io.Reader) {
-	br := bufio.NewReader(r)
+	scanner := bufio.NewScanner(r)
 	p := make(Prefix, c.PrefixLen)
-	for {
-		var s string
-		if _, err := fmt.Fscan(br, &s); err != nil {
-			// log.Printf("i/o error scanning input: %#v\n", err)
-			break
+	for scanner.Scan() {
+		for _, s := range strings.Fields(scanner.Text()) {
+			key := p.String()
+			c.Chain[key] = append(c.Chain[key], s)
+			p.Shift(s)
 		}
-		key := p.String()
-		c.Chain[key] = append(c.Chain[key], s)
-		p.Shift(s)
 	}
+	/*
+
+	 */
 }
 
 // Generate returns a string of at most n words generated from Chain.
