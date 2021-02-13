@@ -9,14 +9,14 @@ import (
 	"os"
 	"time"
 
-	mb "github.com/therealfakemoot/copy-bot/map"
+	gb "github.com/therealfakemoot/copy-bot/graph"
 )
 
 func main() {
 	var (
 		brain  string
 		length int
-		b      mb.Chain
+		b      gb.Brain
 	)
 
 	flag.IntVar(&length, "length", 25, "desired message length in words")

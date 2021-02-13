@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"flag"
+	"fmt"
 	"log"
 	"math/rand"
 	"os"
@@ -10,7 +11,7 @@ import (
 	"time"
 
 	cb "github.com/therealfakemoot/copy-bot"
-	mb "github.com/therealfakemoot/copy-bot/map"
+	gb "github.com/therealfakemoot/copy-bot/graph"
 )
 
 func main() {
@@ -24,10 +25,15 @@ func main() {
 	flag.Parse()
 
 	rand.Seed(time.Now().UnixNano())
-	c := mb.NewBrain(order)
+	c := gb.NewBrain(order)
 	wf := cb.W(&c)
 	filepath.Walk(corpus, wf)
 
+	words := c.Generate(35)
+	log.Printf("words returned: %d", len(words))
+	fmt.Println(words)
+
+	return
 	f, err := os.OpenFile(brainpath, os.O_RDWR|os.O_CREATE, 0644)
 	if err != nil {
 		log.Fatalf("couldn't open brain file: %#v\n", err)
