@@ -3,6 +3,7 @@ package graph
 import (
 	"bufio"
 	"io"
+	// "log"
 	"math/rand"
 	"strings"
 
@@ -69,21 +70,20 @@ func (b *Brain) Learn(r io.Reader) {
 			p.Shift(s)
 			n2 := Node{p.String()}
 			weight, ok := b.g.Weight(n1.ID(), n2.ID())
-			if !ok {
-				we := simple.WeightedEdge{
-					F: n1,
-					T: n2,
-					W: 1.0,
-				}
-				b.g.SetWeightedEdge(we)
-				continue
-			}
 
 			we := simple.WeightedEdge{
 				F: n1,
 				T: n2,
-				W: weight + 1.0,
 			}
+			if !ok {
+				we.W = 0
+				b.g.SetWeightedEdge(we)
+				continue
+			}
+
+			// log.Printf("node1: %s", n1)
+			// log.Printf("node2: %s", n2)
+			we.W = weight
 			b.g.SetWeightedEdge(we)
 		}
 	}
