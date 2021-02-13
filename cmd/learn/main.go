@@ -10,6 +10,7 @@ import (
 	"time"
 
 	cb "github.com/therealfakemoot/copy-bot"
+	mb "github.com/therealfakemoot/copy-bot/mapBrain"
 )
 
 func main() {
@@ -23,8 +24,8 @@ func main() {
 	flag.Parse()
 
 	rand.Seed(time.Now().UnixNano())
-	c := cb.NewChain(order)
-	wf := cb.W(c)
+	c := mb.NewChain(order)
+	wf := cb.W(&c)
 	filepath.Walk(corpus, wf)
 
 	f, err := os.OpenFile(brainpath, os.O_RDWR|os.O_CREATE, 0644)

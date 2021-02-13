@@ -1,4 +1,4 @@
-package chain
+package brain
 
 import (
 	"bufio"
@@ -50,13 +50,13 @@ type Chain struct {
 }
 
 // NewChain returns a new Chain with prefixes of prefixLen words.
-func NewChain(prefixLen int) *Chain {
-	return &Chain{make(map[string][]string), prefixLen}
+func NewChain(prefixLen int) Chain {
+	return Chain{make(map[string][]string), prefixLen}
 }
 
 // Build reads text from the provided Reader and
 // parses it into prefixes and suffixes that are stored in Chain.
-func (c *Chain) Build(r io.Reader) {
+func (c *Chain) Learn(r io.Reader) {
 	br := bufio.NewReader(r)
 	p := make(Prefix, c.PrefixLen)
 	for {
@@ -72,7 +72,7 @@ func (c *Chain) Build(r io.Reader) {
 }
 
 // Generate returns a string of at most n words generated from Chain.
-func (c *Chain) Generate(n int) string {
+func (c Chain) Generate(n int) []string {
 	p := make(Prefix, c.PrefixLen)
 	var words []string
 	for i := 0; i < n; i++ {
@@ -84,5 +84,8 @@ func (c *Chain) Generate(n int) string {
 		words = append(words, next)
 		p.Shift(next)
 	}
-	return strings.Join(words, " ")
+	return words
 }
+
+// Chain is unimplemented
+func (c *Chain) Save(w io.Writer) error { return nil }

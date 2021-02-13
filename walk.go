@@ -1,4 +1,4 @@
-package chain
+package brain
 
 import (
 	"fmt"
@@ -11,7 +11,7 @@ import (
 )
 
 // W builds a closure that fits the WalkFunc signature so you can recursively load corpus files.
-func W(c *Chain) filepath.WalkFunc {
+func W(b Brain) filepath.WalkFunc {
 	wf := func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			log.Printf("Unable to walk %s.\n", path)
@@ -28,10 +28,9 @@ func W(c *Chain) filepath.WalkFunc {
 			log.Printf("Unable to open file %s: %s\n", path, err)
 			return err
 		}
-		// c.Build(f)
 		s := bufio.NewScanner(f)
 		for s.Scan() {
-			c.Build(strings.NewReader(s.Text()))
+			b.Learn(strings.NewReader(s.Text()))
 		}
 		if err := s.Err(); err != nil {
 			return fmt.Errorf("error scanning corpus content: %w", err)
