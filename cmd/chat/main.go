@@ -9,7 +9,7 @@ import (
 	"os"
 	"time"
 
-	mb "github.com/therealfakemoot/copy-bot/mapBrain"
+	mb "github.com/therealfakemoot/copy-bot/map"
 )
 
 func main() {
