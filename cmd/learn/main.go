@@ -24,7 +24,7 @@ func main() {
 	flag.Parse()
 
 	rand.Seed(time.Now().UnixNano())
-	c := mb.NewChain(order)
+	c := mb.NewBrain(order)
 	wf := cb.W(&c)
 	filepath.Walk(corpus, wf)
 

@@ -49,8 +49,8 @@ type Chain struct {
 	PrefixLen int
 }
 
-// NewChain returns a new Chain with prefixes of prefixLen words.
-func NewChain(prefixLen int) Chain {
+// NewBrain returns a new Chain with prefixes of prefixLen words.
+func NewBrain(prefixLen int) Chain {
 	return Chain{make(map[string][]string), prefixLen}
 }
 
