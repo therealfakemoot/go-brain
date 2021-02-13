@@ -1,4 +1,4 @@
-package brain
+package mapbrain
 
 import (
 	"bufio"
@@ -88,4 +88,6 @@ func (c Chain) Generate(n int) []string {
 }
 
 // Chain is unimplemented
-func (c *Chain) Save(w io.Writer) error { return nil }
+func (c *Chain) Save() error {
+	return nil
+}
