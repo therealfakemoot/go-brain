@@ -8,6 +8,8 @@ import (
 	"math/rand"
 	"regexp"
 	"strings"
+
+	"github.com/therealfakemoot/copy-bot"
 )
 
 // Normalize takes an input string and returns a slice of whitespace spearated words in all lowercase with all punctuation removed.
@@ -27,20 +29,6 @@ func Normalize(entries []string) []string {
 
 }
 
-// Prefix is a Markov chain prefix of one or more words.
-type Prefix []string
-
-// String returns the Prefix as a string (for use as a map key).
-func (p Prefix) String() string {
-	return strings.Join(p, " ")
-}
-
-// Shift removes the first word from the Prefix and appends the given word.
-func (p Prefix) Shift(word string) {
-	copy(p, p[1:])
-	p[len(p)-1] = word
-}
-
 // Chain contains a map ("chain") of prefixes to a list of suffixes.
 // A prefix is a string of prefixLen words joined with spaces.
 // A suffix is a single word. A prefix can have multiple suffixes.
@@ -58,7 +46,7 @@ func NewBrain(prefixLen int) Chain {
 // parses it into prefixes and suffixes that are stored in Chain.
 func (c *Chain) Learn(r io.Reader) {
 	scanner := bufio.NewScanner(r)
-	p := make(Prefix, c.PrefixLen)
+	p := make(brain.Prefix, c.PrefixLen)
 	for scanner.Scan() {
 		for _, s := range strings.Fields(scanner.Text()) {
 			key := p.String()
@@ -66,14 +54,11 @@ func (c *Chain) Learn(r io.Reader) {
 			p.Shift(s)
 		}
 	}
-	/*
-
-	 */
 }
 
 // Generate returns a string of at most n words generated from Chain.
 func (c Chain) Generate(n int) []string {
-	p := make(Prefix, c.PrefixLen)
+	p := make(brain.Prefix, c.PrefixLen)
 	var words []string
 	for i := 0; i < n; i++ {
 		choices := c.Chain[p.String()]
