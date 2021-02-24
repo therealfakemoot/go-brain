@@ -102,7 +102,7 @@ func (g *WeightedDirectedGraph) NewNode() graph.Node {
 	if int64(len(g.nodes)) == uid.Max {
 		panic("simple: cannot allocate node: no slot")
 	}
-	return Node(g.nodeIDs.NewID())
+	return simple.Node(g.nodeIDs.NewID())
 }
 
 // NewWeightedEdge returns a new weighted edge from the source to the destination node.
@@ -172,10 +172,6 @@ func (g *WeightedDirectedGraph) SetWeightedEdge(e graph.WeightedEdge) {
 		to   = e.To()
 		tid  = to.ID()
 	)
-
-	if fid == tid {
-		panic("simple: adding self edge")
-	}
 
 	if _, ok := g.nodes[fid]; !ok {
 		g.AddNode(from)

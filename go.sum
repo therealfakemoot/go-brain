@@ -2,7 +2,8 @@ github.com/ajstarks/svgo v0.0.0-20180226025133-644b8db467af/go.mod h1:K08gAheRH3
 github.com/fogleman/gg v1.2.1-0.20190220221249-0403632d5b90/go.mod h1:R/bRT+9gY/C5z7JzPU0zXsXHKM4/ayA+zqcVNZzPa1k=
 github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0/go.mod h1:E/TSTwGwJL78qG/PmXZO1EjYhfJinVAhrmmHX6Z8B9k=
 github.com/jung-kurt/gofpdf v1.0.3-0.20190309125859-24315acbbda5/go.mod h1:7Id9E/uU8ce6rXgefFLlgrJj/GYY22cpxn+r32jIOes=
-github.com/therealfakemoot/go-brain v0.0.0-20210213232824-583bb146da4a h1:q+2C2UST72HRHMc/K7tgRPFu7qISYp7JbEc0mfNQjt4=
+github.com/therealfakemoot/copy-bot v0.0.0-20210213232824-583bb146da4a h1:V4FcrVVi3Ukv3p0hJD1XT6piJRxXVlaky97Lrr/b6Tg=
+github.com/therealfakemoot/copy-bot v0.0.0-20210213232824-583bb146da4a/go.mod h1:50PQJTh62E0ZXQcbxM3keZCUBuZdH3WbCkw2uz/DYY0=
 github.com/therealfakemoot/gomarkov v0.0.0-20180818070845-1bd158c9a5f3 h1:1Ati2UEBsgZgxkxVsjHvhD6HC0cvuOlrNvZQDRWOW6o=
 github.com/therealfakemoot/gomarkov v0.0.0-20180818070845-1bd158c9a5f3/go.mod h1:zo33WhwY4UO9EB8tIdD8tj3vbbLcPIMG4Szk3UETaXM=
 golang.org/x/exp v0.0.0-20180321215751-8460e604b9de/go.mod h1:CJ0aWSM057203Lf6IL+f9T1iT9GByDxfZKAQTCR3kQA=
