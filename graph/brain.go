@@ -16,14 +16,14 @@ import (
 // Brain is a gonum.DirectedWeightedGraph powered markov brain
 type Brain struct {
 	o int // how many consecutive words to use as each vertex
-	g *simple.WeightedDirectedGraph
+	g *WeightedDirectedGraph
 }
 
 // NewBrain creates a gonum.DirectedWeightedGraph powered markov brain with a key order of n
 func NewBrain(n int) Brain {
 	var b Brain
 	b.o = n
-	b.g = simple.NewWeightedDirectedGraph(0.0, 0.0)
+	b.g = NewWeightedDirectedGraph(0.0, 0.0)
 
 	return b
 }
