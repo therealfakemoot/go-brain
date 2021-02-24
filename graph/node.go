@@ -24,7 +24,7 @@ func (n Node) String() string {
 }
 
 // EdgesOf pulls all edges which start at the given node
-func EdgesOf(g WeightedDirectedGraph, n ggraph.Node) []ggraph.WeightedEdge {
+func EdgesOf(g *WeightedDirectedGraph, n ggraph.Node) []ggraph.WeightedEdge {
 	var matches []ggraph.WeightedEdge
 	edges := g.WeightedEdges()
 	for edges.Next() {

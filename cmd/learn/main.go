@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"time"
 
-	cb "github.com/therealfakemoot/copy-bot"
-	gb "github.com/therealfakemoot/copy-bot/graph"
+	cb "github.com/therealfakemoot/go-brain"
+	gb "github.com/therealfakemoot/go-brain/graph"
 )
 
 func main() {
