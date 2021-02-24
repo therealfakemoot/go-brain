@@ -1,7 +1,11 @@
 package uid
 
+import (
+	"github.com/therealfakemoot/go-brain/set"
+)
+
 // Max is the maximum value of int64.
-const SetMax = int64(^uint64(0) >> 1)
+const Max = int64(^uint64(0) >> 1)
 
 // Set implements available ID storage.
 type Set struct {
