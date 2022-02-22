@@ -14,18 +14,6 @@ Its quintessential white hue.
 Designed to celebrate the spirit of the inspiring utopian Mid-Century architectural designs.
 Designed for those with an inclination for the debonair.
 Brings an acclimated sensibility to any décor.
-ays homage to Eileen Gray and Charlotte Perriand.
-Designed after seeing Brancusi’s divine sculptures on view in his native Romania. –NOTE: MOST OF HIS SCULPTURES WERE OF PHALLIC OBJECTS OR TURNING EVERYDAY ITEMS INTO MALE GENITALS.
-A contemporary descendant of the Savonarola chair originally named for a 15th-century Dominican cleric.
-A 21st century adaptation of the 200-year old Chiavari chair (named after Italian Riviera town of Chiavari where it was first designed).
-Gershwin tunes, diamonds and sables. At home amidst the unapologetic decadence of the smoldering Jazz Age…
-Inspired by the rich fabrics that adorned the furnishings and figures of the Renaissance.
-Inspired by a time when homes were decorously anointed with the names of their own.
-Inspired by the sculptural elegance of the legendary Noguchi side table.
-Frank Lloyd Wright might have stored his sketchbooks in this modern organic masterpiece.
-Inspired by the natural beauty of Frank Lloyd Wright’s arts and crafts masterpieces.
-Inspired by the inimitable style of design legends Charles and Ray Eames and Arne Jacobsen.
-Pre-war photos of an old Chicago factory inspired… this [table].
 With a stylistic provenance that includes the bold lines of Cubism and Corbusier’s intellectual modernism.
 Inspired by the infamous silhouettes of design legend Philippe Starck.
 Giacometti’s sculptural style inspired this contemporary glass-topped coffee table.
@@ -40,11 +28,7 @@ Inspired by the sculptural elegance of the legendary Noguchi side table.
 Frank Lloyd Wright might have stored his sketchbooks in this modern organic masterpiece.
 Inspired by the natural beauty of Frank Lloyd Wright’s arts and crafts masterpieces.
 Inspired by the inimitable style of design legends Charles and Ray Eames and Arne Jacobsen.
-
-INSPIRED BY [RANDOM OBJECT]
 Pre-war photos of an old Chicago factory inspired… this [table].
-
-INSPIRED BY FAKE PERSON/THEIR ITEMS
 Inspired by a designer’s bold pairing clean lines and beguiling Victorian patterns.
 Inspired by the iconic modern designs of a legendary Hungarian architect.
 Inspired by vintage pieces from a legendary Norwegian designer.
@@ -58,6 +42,13 @@ The designs of one of Japan’s award-winning architects inspired this light gre
 The UK’s master cabinetmakers inspired this mid-century 7-tier etagere.
 Inspired by Italy’s greatest contemporary architect.
 With a nod to the modern design legends whose legacy mastered form and function.
+Inspired by the African influence present in the legendary work of modernist sculptors.
+Inspired by the Golden Mean of ancient geometry.
+The relaxed luxury found in the heart of Spanish coastal cities inspired the [chair].
+Designed to reflect the urban landscape of Barcelona.
+The soft curves and quiet strength of Gaudi’s legendary Spanish Catalan architecture inspired this [table].
+Inspired by London’s fine dining scene.
+Inspired by London’s skyline.
 The contemporary-cool look of Silicon Valley is the inspiration behind this clean-lined, West Coast-mod coffee table.
 Inspired by the romantic ambiance of modern beachside living in South Africa.
 Inspired by posh Park Avenue style.
@@ -71,13 +62,6 @@ Inspired by the style of NYC’s ad men of the 60s.
 Inspired by a Cole Porter tune.
 Inspired by indulgent parties at the Savoy and the stylish furnishings of the period.
 Luggage from the Golden Age of travel inspired the classic steamer trunk look of this retro coffee table.
-Inspired by the African influence present in the legendary work of modernist sculptors.
-Inspired by the Golden Mean of ancient geometry.
-The relaxed luxury found in the heart of Spanish coastal cities inspired the [chair].
-Designed to reflect the urban landscape of Barcelona.
-The soft curves and quiet strength of Gaudi’s legendary Spanish Catalan architecture inspired this [table].
-Inspired by London’s fine dining scene.
-Inspired by London’s skyline.
 Posh international boutique hotels were the inspiration for the…
 …whose blend of traditional and modern décor cast a spell on the designer of this…
 Inspired by the lavish interiors of Dubai’s famous five-star hotels.
@@ -95,6 +79,14 @@ Designed to capture the spirit of the newly renovated interiors of a Mayfair hot
 The revamped Art Deco hotel in Mayfair inspired this contemporary [bar cart].
 Inspired by a vintage piece perched on the concierge’s desk in one of the most revered traditional five-star hotels in London.
 Furnishings outfitting the royal suite in London’s oldest five-star hotel.
+At the end of a narrow street in Cannes there is a hotel whose chic interiors offer respite for celebrities seeking shelter from endless cameras and wandering eyes. Inspired by this hidden oasis, this contemporary table lamp is an instant icon.
+In a small corner of the Marais is the historic boutique hotel with the interiors that inspired this Parisian-style bench.
+A long summer holiday at a Burgundian chateau filled with beloved antiques.
+An impromptu retreat to the heart of Burgundy inspired this white two drawer nightstand.
+Created to recall the ethereal interiors of Paris’ grand hotel on Avenue Montaigne…
+Inspired by the interiors of Paris’ top hotel.
+Inspired by the glamorous hotels on the French Riviera.
+In New Orleans’ French Quarter sits the historic five-star boutique hotel whose period fittings inspired this [chandelier].
 The rugged, yet refined interiors of Boston’s most luxurious hotel inspired this…
 Designed to recreate the soothing aura of Palm Beach’s most coveted hotel suite.
 Inspired by luxury Colorado ski resorts.
@@ -102,3 +94,580 @@ Inspired by the gracious, feminine style of one of Beverly Hills legendary grand
 The modern interiors and playful vibe of Tribeca’s latest boutique hotel inspired this contemporary white coffee table.
 Inspired by New York’s most iconic hotel interior.
 Inspired by the newly renovated lounge in Manhattan’s grandest hotel.
+The penthouse suite in a designer boutique hotel in the Netherlands.
+Inspired by the interiors of a famous Zurich day spa.
+Inspired by the furnishings in latest design hotel in Oslo.
+The priceless French antiques that outfit a Belgian bed and breakfast outside of Brussels.
+Penthouse suites in Danish boutique hotels inspired this [coffee table].
+Inspired by Sweden’s signature 5-star hotels.
+Designed to reflect the style of Milan’s latest fashion-inspired hotel.
+Bathed in an interplay of shadow and light, the art of conversation isn’t lost in the lobby of Milanese fashion hotel that inspired this [lamp].
+Inspired by the interiors of the luxury seaside resorts in Santorini.
+The 18th century hotel perched on one of Venice’s legendary canals inspired this enchanting contemporary square pouf.
+Inspired by Rome’s most exclusive 5 star hotel.
+The lush interiors in a resort in the heart of the Maldives inspired this bold contemporary pouf.
+Monaco’s grandest hotel forgoes brazen luxury and favors the classic beauty of symmetry, gentle curves, and polished living. A preferred spot of royals, its gracious interiors inspired this [lamp].
+A top ski resort in the Italian alps [sic] inspired the modern rustic style of this contemporary coffee table.
+An unexpected afternoon getting lost in the winding paths and secret lush green corners of the Brooklyn Botanic Garden.
+The designer had planned to do a complete renovation. But the lobby of the iconic Grand Dame in Manhattan wouldn’t have been the same without the Jazz Age antique treasure that inspired the tiers of modern luxury that define this shimmering chandelier.
+The boutique was a destination for creations of the world’s foremost contemporary designer. But her educated eye led her to select the heirloom that inspired this traditional chandelier.
+Down on one knee in London’s Barclay Square, the beauty and depth of his proposal made the ring’s 3 karat diamond seem demure. Inspired by her epic moment, the designer of this shimmering crystal table lamp created an heirloom beloved for generations. (ENTIRE DESCRIPTION)
+Abandoning the glitz of LA, a screen siren rekindled her love of the big city’s bright lights in her expertly outfitted Upper East Side apartment.
+The creator of this contemporary square pouf was inspired by his extensive journeys through India and Central Asia.
+Inspired by the designer’s journey to Senegal.
+Inspired by the office of a top fashion blogger.
+Inspired by the desk of a top fashion magazine editor.
+Inspired by vintage pieces in the most regal historic American and European homes.
+The award-winning showroom of the world’s top purveyor of diamond jewelry inspired this [chandelier].
+Inspired by the historic manors that house the finest art, antiques and jewels of living.
+The delicately crafted boxes that held the coveted gems of cinema’s most revered siren.
+Found only in catalogs of manors devoted to the collection of antiquities and fine furnishings.
+The luxe furnishings found in the French Quarter mansions of New Orleans inspired the Empire-style [tables].
+This bold coffee table was inspired by the art design furnishings in a contemporary painter’s studio.
+Inspired by the home of a skilled modern architect.
+The landscape surrounding an 18th century Hampshire estate inspired this [stool].
+Inspired by the sophistication and classic good taste found in British stately homes.
+Reminiscent of the townhouse of the late London craftsman known for his bespoke furnishings for modern royalty.
+Designed to recall the office of a top executive in London.
+Inspired by the new home of London’s top interior designer.
+Inspired by the home of London’s star architect.
+Inspired by The Shard’s offices in London.
+Inspired by the interior designs by one of the UK’s top architects.
+Designed to recreate the contemporary furnishings that outfit the inner sanctuary of an iconic British designer.
+The designer furnishings collection that appoints the Saint-Germain apartment of a French auction house owner.
+On a tiny street in SaintGermain is the home of the contemporary French designer whose bespoke furnishings inspired this…
+Inspired by the Paris office of a top gallerist.
+Inspired by the home of Paris’ top designer.
+Inspired by the home of a Parisian fashion designer.
+Inspired by the iconic interiors of a top Parisian art collector.
+An auction with lots from a famous French artist’s Parisian flat.
+Inspired by the studio of a French couturier.
+Inspired by the offices of a legendary Parisian couturier.
+Vintage photos of a legendary Italian actresses’ apartment inspired this striking coffee table.
+Designed to recall the la dolce vita style of an Italian film director’s Rome apartment.
+This contemporary coffee table was inspired by the sleek apartment of Milan’s foremost fashion designer.
+Inspired by a top fashion editor’s Milan apartment.
+The posh décor of a Manhattan Pre-war apartment.
+The versatile portable furnishings in a revered architect’s Tribeca loft inspired this contemporary square pouf.
+Inspired by the de rigueur furnishings in prominent pre-war Park Avenue mansions in the sky.
+Inspired by the interiors of pre-war Park Avenue apartments.
+Inspired by the glamour of Park Avenue’s stunning interiors.
+Inspired by the elegant interiors of Park Avenue apartments.
+Inspired by the dining room of Park Avenue’s most refined modern hostess.
+The distinctly modern penthouse sitting atop one of NYC’s classic skyline buildings.
+The chic feminine decor in a NYC designer’s modern nest inspired the chain design.
+Recalls the minimalist interiors of an artist’s residence in NYC.
+Inspired by a top designer’s office in Brooklyn.
+Coveted auction lots from the residence of one of the Upper East Side’s famous socialites inspired this posh square bench.
+Inspired by the luxurious NYC penthouses on the Upper East Side.
+The glamorous Bel Air mansion of Hollywood’s poshest leading lady inspired this sofa.
+The office of a legendary Hollywood agent was the inspiration for this linen chrome leg swivel office chair.
+Inspired by the office of a San Francisco tech giant.
+A designer’s Los Angeles residence inspired this [étagère].
+The bespoke interiors of Los Angeles’ elite inspired the [armchair].
+Inspired by the home of a top LA designer.
+Inspired by the home of Denmark’s top architect.
+Inspired by the corporate office of Denmark’s top architects.
+Inspired by the bespoke interiors of a famous Nordic architect’s office.
+The renovated interiors of the former residence of Hungarian aristocrats.
+Inspired by furnishings used to decorate a top gallery owner’s apartment in Brussels.
+Inspired by the elegant interiors created by a top Belgian decorator and antiques dealer.
+The award-winning style of a legendary Finnish designer inspired this [coffee table].
+Inspired by the home of an iconic Finnish designer and architect.
+Inspired by the office of a Berlin fashion editor.
+The home of Copenhagen’s leading designer inspired this vintage-style floor lamp side table.
+Inspired by the home of an iconic Brazilian designer.
+Within Brazil’s densely forested landscape is the stunning contemporary residence that inspired this [table].
+Inspired by the home of Beijing’s iconic modern architect.
+Inspired by a coveted vintage treasure in a Brussels design gallery.
+Inspired by an unexpected find in one of Stockholm’s modern design galleries.
+Inspired by a vintage find in Belgium’s foremost design gallery.
+Inspired by the ancient and contemporary silver art found in Mexican museums.
+The intricate baskets in the Japanese Gallery of the Art Institute of Chicago inspired this coffee table.
+An antique bench found in the foyer of a beloved bed and breakfast on the coast of Maine was the inspiration for this whitewashed coffee table.
+Inspired by a piece in a Swiss design museum.
+ITALY
+Inspired by an antique found in a restored 18th century Venetian palace not far from Piazza San Marco.
+A rare find in a design gallery in Milan inspired this [coffee table].
+Inspired by gorgeous vintage treasures in a Milan gallery.
+Inspired by a vintage Italian find.
+Collectable Italian furnishings from the 50s found in a legendary Milan design shop inspired this petite retro ottoman.
+ENGLAND
+The organic motion and lucid temperament of the modern treasures in London’s foremost museum of contemporary art inspired this [lamp].
+Inspired by iconic sculptures in London’s modern art museums.
+A coveted treasure from a London antiques shop inspired this [lamp].
+Inspired by a London antique.
+This enchanting side table was inspired by an Art Nouveau antique in London’s Victoria and Albert Museum.
+Inspired by a curator’s office at a design museum in London.
+UNSPECIFIED
+An exhibition of antiquity’s architectural marvels at the world’s top encyclopedic museum inspired this [table].
+A classic piece that illuminates the head curator’s office in a major contemporary art museum inspired this [lamp].
+A treasured vase in a museum collection inspired this [lamp].
+Inspired by the artistry on a priceless antique vase.
+PARIS/FRANCE
+The iconic architecture of Paris’ latest foundation for contemporary art inspired this glass coffee table.
+Created as an homage to designs in the decorative arts museum in Paris.
+Inspired by pieces in Paris’ decorative arts museum.
+Inspired by the Art Deco marvels in Paris’ famous decorative arts museum.
+Sculptures in a top Parisian gallery inspired this [table].
+Designed after an extensive study of French design at decorative arts museums.
+The fine antique furnishings found in Paris’ hidden boutiques inspired this [bench].
+Inspired by the vintage designs of Parisian auctions.
+BERLIN
+Inspired by the interiors of an iconic art gallery in Berlin.
+The rooftop lounge atop Berlin’s foremost art gallery inspired this [coffee table].
+Inspired by the seating at a contemporary art gallery in Berlin.
+JAPAN
+The exquisite furnishings, accessories and artworks at the Noguchi Museum inspired this [table].
+Hours spent admiring ancient treasures hidden in the Kyoto antiques district inspired this modern coffee table.
+SPAIN
+Inspired by the iconic furnishings in Spain’s top design gallery.
+Inspired by a curator’s desk at a top Barcelona art museum.
+NEW YORK
+Inspired by the minimalist interiors of New York’s premiere modern art gallery.
+
+INSPIRED BY CATALOGS/DESIGN EVENTS
+The contemporary furnishings at Paris’ design fair inspired the [chair].
+Inspired by bespoke furnishings in the legendary annual designer showhome in New York City.
+Inspired by a Mid-Century Modern sculpture at a decorative arts fair in New York.
+A contemporary sculpture exhibition in NYC inspired this modern pentagon marble top side table.
+A contemporary auction catalogue for a modernist Hungarian sculptor.
+The catalog of a top vintage modern design dealer.
+The next generation of iconic designs at London’s contemporary furnishings fair inspired this [table].
+Inspired by the new generation of designers at London’s contemporary design fair.
+Inspired by Dubai’s design collector’s fair.
+The latest furnishings at this year’s top design fair in Milan.
+
+INSPIRED BY UNSPECIFIED SECRET PLACES
+Inspired by a favorite haunt for an après theatre sip of champagne.
+A patisserie in a small French village inspired this fourtier corner metal shelf.
+An enchanting chateau in the South of France inspired this rustic chic pendant light.
+Inspired by treasures found in a chateau in the south of France.
+A quaint bed and breakfast nestled in a village in the British countryside holds the beloved furnishings that inspired this…
+A renovated bed and breakfast in the heart of Dublin inspired this [nightstand].
+Channels the monochrome patterns and streamlined Italian design classics that outfit the hottest café in Milan.
+The expertly curated furnishings that appoint a villa alongside Italy’s Lake Cuomo inspired this console table.
+Inspired by an industrial chic café in Paris’ Marais district.
+The retro furnishings in a Marais boutique inspired this luxuriant bench.
+This contemporary pentagon coffee table was inspired by the luxe interiors of the Marais’ latest designer boutique.
+Inspired by the interiors of Paris’ latest Michelin-star restaurant.
+Recreates the cutting-edge style of NYC’s latest Michelin-starred culinary destination.
+SoHo’s latest lounge inspired this industrial chic floor lamp.
+Inspired by the stylish designs that outfitted the offices of twentieth century advertising giants.
+Barcelona’s latest culinary haven inspired this contemporary bar stool.
+Inspired by the industrial chic interiors of a top Danish restaurant.
+A long forgotten antique table found in the recesses of an old Belgian farmhouse inspired this rustic modern coffee table.
+Crafted to recall the warm interiors of a chic Belgian farmhouse.
+The ultra-mod furnishings that outfit Ibiza’s most sought-after lounge inspired this contemporary double coffee table.
+
+“FLEA MARKET”/ETC MENTIONS
+A serendipitous find in the shop of an Asian antiques dealer in Bangkok.
+Did you find it at Portabella Road, or was it the Paris flea market?
+Evokes memories of old European markets where vintage treasured are found and cherished for a lifetime.
+An unexpected find in a San Francisco flea market.
+As shabby-chic as a flea market find, but fresh and new.
+Inspired by a hidden treasure at a Paris flea market.
+Inspired by antiques in a Parisian flea market.
+Inspired by finds at a Parisian flea market.
+Inspired by vintage finds at a Parisian flea market.
+Deco details from architectural photos found in a French flea market inspired the posh geometry…
+An antique found at a Belgian flea market inspired the delicate details of this…
+Inspired by finds at a Belgian flea market.
+Inspired by an antique find in a Belgian flea market.
+A vintage Art Deco find in an antique market in Belgium.
+
+GENERAL INAPPROPRIATE/CREEPY
+Movie night munchies.
+Its gracious aluminum body and sophisticated silver finish make it ideal for contemporary interiors of the masculine or feminine persuasion.
+A cool modern interpretation of the comfortable furnishings that adorned the gentleman’s clubs in London’s St. James.
+Depth and maturity.
+You can’t resist the urge to give [this] pillow a great big hug.
+Lean back and give an executive order.
+Indulge in the champagne lifestyle.
+Gets a classic dressed-up punch.
+Like the finest sweet chocolate.
+Built to ensure that the office party never dies down.
+Transforms any office from bland to brilliant.
+Baby will snuggle-up tight in the girly good-looks of the [baby blanket].
+A baby blanket your little one might want to keep close for too long!
+Simply lift the larger table and stack above its petite companion for a nesting table look.
+Offering a place to hold your highball.
+Make 9-5 the new happy hour.
+
+FITS MULTIPLE CATEGORIES OF INAPPROPRIATE
+Heavy-bottomed legs reminiscent of Asian furnishings.
+Works beautifully in any modern decor, or perhaps a young girl’s bedroom.
+A coquettish, feminine disposition.
+…sleek profile will fit into the tightest corners.
+Long shapely legs marries an easy farmhouse allure with just-right bedside manners.
+The coworker of your dreams; easy to handle and super productive.
+An ideal companion for its clean-lined but sensual curves.
+Marries the functionality of a secretary with that of a traditional console.
+Flirts with romance and femininity.
+Within the inner folds of its beautiful lining of paisley linen/polyester blend interior fabric. Outside,…
+The [bar stool]’s traditional wicker style is instantly amped with the delicate romantic styling that supports the lower back.
+
+MASCULINE SEXUALIZATION – PLEASE NOTE: ALL OF THESE ARE/WERE ONLY ON ITEMS WITH TRADITIONALLY MASCULINE NAMES
+Tall and broad shouldered.
+Infused with classic, rugged, masculine style.
+Has a masculine energy that doesn’t overpower.
+Speaks a classic, masculine language.
+Has the charming characteristics of a country gentleman: solid and filled with character.
+Tall, dark and handsome. (found many times).
+
+SEXUAL
+This sleek little number.
+Afternoon delight.
+As seductive as Gatsby’s nostalgic indulgence.
+Shorter rear and exposed underbelly.
+The visual play of shorter rear.
+Cuddle up close to feel the warmth and comfort of its plush, flowing textures.
+Conjure[s] the grace, charm, and decadence of those who embodied the lust for life.
+Its precious curves.
+Inspired by a vintage lingerie chest.
+An affair to remember.
+A little black dress for any interior.
+The little black dress of the office.
+The little black dress of décor.
+Seductively comfortable.
+The seductive disposition of fine craftsmanship.
+Seductive to the eye and so, so satisfying to the touch.
+Seductive bedroom furnishings.
+Inspired by the boudoirs of great French courtesans.
+Ideal for a lover’s letters and quill pens stashed away by those who still believe in romance.
+Store anything from love letters to stress-relieving lotions, and potions.
+Caresses every curve
+Creamy dimples of supple softness spread lush texture.
+It may not be smart to start an office romance, but it’s hard to rebuke…
+Line its drawers with scented paper and fragrant sachets designed to keep silk, lace and delicate garments alive with feminine splendor.
+Sensuous velvet Parisian sofa.
+Sets the mood to comfort.
+Sultry bedroom décor.
+A sensual delight for living room or seductive bedroom furniture.
+Studies the anatomy of a tangerine orange tulip.
+You’ll want to run your fingers through every nook and cranny.
+Bulging braids.
+Gets pulses racing.
+Begin an instant love story.
+The secret weapon of any boudoir.
+Form and function make the ideal office romance.
+Rugged rattan weave with flirtatious curves and sexy rawhide lace accents.
+
+SEXIST/SEXIST CONNOTATIONS – PLEASE NOTE: ALL OF THESE ARE/WERE ONLY ON ITEMS WITH TRADITIONALLY FEMININE NAMES
+Evokes a time when ladies still lunched.
+Park Avenue princess.
+Petit princess.
+Painted princess.
+Created for the modern princess.
+Slim proportions instantly dress up any room, even smaller spaces.
+Well-balanced proportions.
+Shapely stature.
+As practical as it is pretty.
+Pretty and practical.
+Pretty but hardworking.
+Equally pretty in the living room.
+Dress up this pretty addition.
+Thoroughly contemporary, the velvet Vitali Chaise has a family tree that can be traced as far back as the Victorian fainting couch.
+Model-thin.
+Curves in all the right places.
+Feminine without the frill.
+Good looking and hard-working.
+Solid and sexy.
+Consider it a contemporary lady’s maid.
+Feminine and graceful… but not fussy at all.
+A paean to feminine wiles.
+Flirty tassels add just the right amount of fun.
+Plump seat back and ample bottom.
+A time when a tuxedo was de rigueur for dinner and a woman never appeared without her gloves.
+Straight-legged beauties.
+Curved read legs keep [this chair] from being a plain Jane.
+Is sheer beauty when dressed up with accessories.
+Demure yet dynamic.
+Unfussy and fresh.
+
+RACIST/CULTURALLY INSENSITIVE/CULTURALLY INCORRECT
+Just the right ethnic vibes.
+Blue flowers and Asian symbols blooming across…
+Tribal in motif but glamorous…
+Ancient ethnic motifs.
+Soft ethnic patterning.
+Can easily be Asian-inspired pierced motif.
+Could be mistaken for Japanese sculpture.
+Bold ethnic colors and patterns.
+Asian-style curves.
+Updated Asian style.
+
+GENERAL AWKWARD/WEIRDNESS
+Nubby hopsack texture.
+Living room wool.
+Makes you an instant butler.
+
+“QUESTION-MARKY”
+Iron bodice.
+Couture details include a double row of buttons up the spine.
+Strongly graphic.
+Dripping with turn of the century charm.
+What could be more romantic than a loveseat nestled under a flowering outdoor arbor?
+Designed for the discriminating eye.
+Perfect for holding the keys to the castle and the bills that allow its upkeep.
+Casts a spell with its ethereal curves.
+Beguiling keyhole.
+You’ll have mad love for…
+What’s good is good. Embrace circular logic.
+Classic interiors that need a punch.
+Forged to replicate the crusty bark texture of a graceful tree branch.
+A godsend for those in dire need of extra storage.
+It’s a learning curve.
+Rudimentary vintage look.
+Rough or unfinished edges that may be dangerous but lend craftsman-style character[.]
+Gives [ottoman] a natural hand.
+Club room elegance.
+A heavy hitter.
+Inject this console.
+Parisian cool instantly heats up the kitchen.
+The circle speaks of everlasting life.
+An exercise in civilized restraint.
+Out for a walk with mom and dad in the new stroller.
+Nestles baby in the comfort of a soft cotton throw and the playful image of an adorable rocking horse—which they’ll soon be riding!
+Keep your little one warm, comfortable, and quietly cooing.
+When it’s time for showin’ off your new addition to the family.
+Baby will snuggle-up tight.
+Inspired by a time when going to the office was a dress-up occasion.
+Visual heft.
+Executive sweet.
+Headed for a corner office.
+
+ODD PHRASING/POOR SYNTAX
+Cool strength.
+The seat height is 24 inches.
+Brings graciousness.
+Looks like the piece has been handed down through the ages.
+The perfect foil to colorful objects of art and dramatic painted walls.
+Designed with heart and soul.
+Trend-right look.
+Appears to float in a room.
+A magnificent vessel.
+And comes with a pillow.
+Its powerful impact skillfully enhances— not overpowers--
+Mod vibe and modern…
+Contrasted with contrasting.
+A sensation for the senses.
+But the overall vibe remains modern farmhouse.
+Its light-reflecting polished stainless steel finish.
+Wraps an inviting country charm around ample storage, which includes two drawers and a bottom shelf.
+Those bits of technology that interrupt an interior’s aesthetic.
+Bobbi store blankets.
+The heft of solid birch wood legs.
+Perennially chic.
+Knotty pattern.
+Inspired by shiny Victorian-era garden balls.
+Proves the perfect training ground for evening blooming vines or climbing roses.
+Calm canvas for display.
+It’s thin but sturdy.
+Iron legs support a top with the sleek look of lacquer.
+Its open and closed shelving and sleek geometric lines cut a dashing figure.
+Crafted in metal.
+The heft of metal.
+Clever interior storage.
+An aesthetically pleasing hidden drawer.
+Practicality of three moveable sections.
+So well styled you’d never know that a motion mechanism is hidden within.
+Neat and tailored.
+Covers baby in pure, soft cotton.
+Keeping a room visually uncluttered.
+Lends instant cache.
+Creates an instantly hospitable environment in any room.
+Is transitional in style.
+Is crafted for indoor-outdoor use.
+All crafted in Malaysian Oak in a dark oak finish.
+Provides an elegant look.
+It’s lightweight and ready for a spin.
+Offers two layers of haute style— and storage.
+Glides comfortably from commercial to home office applications.
+A fresh, solid palette.
+Brings a textural, industrial element to the office—or any room.
+Casts shimmering hues.
+Shown, [sic] in olive fabric and a cherry mahogany finish on the legs.
+Designed for cushiony comfort.
+Add a touch of sleek and sophistication.
+Blend classic style with a contemporary twist.
+Finely crafted to embody an ethereal choreography.
+It’s topped with an off-white cotton shade that glows.
+Ties up any modern décor.
+Create a beautiful contemporary combination.
+
+CHEESY
+Instant rapport in any décor.
+It goes without saying that wishes will be granted this holiday season.
+The good life is simple.
+Luxury often speaks in a whisper.
+[This bed] is a true sleeping beauty.
+
+STRANGE REFERENCE
+Mirroring the sinuous silhouette that defines the universally desired Louboutin’s.
+Designed to simulate the look of ostrich skin.
+Boasts the tantalizing tales inherent in rustic charm.
+Evocative of a campsite tripod table fashioned of branches.
+Conjures images of leisurely afternoons in chic Italian cafes and enotecas.
+The pop song said it best: we are living in a material world.
+
+FITS MULTIPLE CATEGORIES OF ODD
+Recall 18th museum specimens.
+Designed for interior designers in search of modern heirlooms to adorn the rooms of contemporary homes.
+A sweet confection of home accessories is [this] throw pillow.
+The wonderful sheen of satin polyester is the canvas to which an exuberant field of claret-red and yellow-gold flowers is appliqued.
+You’ll flip.
+Performs butler duty.
+TV paraphernalia.
+Priced to own at less than you’d pay for a one-time party rental.
+Crafted with an ethereal aesthetic for optimal versatility.
+Baby is always the star of your show.
+The nuts and bolts of rustic-chic life are in the details.
+Brings the practical magic of industrial style.
+Combat office overflow.
+An [sic] moveable aesthetic coup.
+With its pretty low-profile backrest.
+Beautifully imprecise.
+Put a lid on it.
+A must-have for any modern maison.
+Strong enough to endure a lifestyle filled with late-night toasts and midnight snacks, and sleek enough for sophisticated modern interiors.
+Rugged plastic and chrome construction.
+It’s portable and posh.
+Its calming palette continues through its sleek angular silver metal frame.
+
+WEIRD PERSONIFICATION OF ITEM
+A chic and sturdy companion.
+It will be your most reliable worker.
+A precious tray for serving cocktails after the sun goes down makes Chelsea your new best friend.
+Consider it the friend who never lets you down.
+…will be the most efficient member of your family.
+The toughest member of the team.
+Ensures a perpetually sleek disposition.
+Luxe modern side chairs become ideal dining companions when crafted of easy-care PU leather in black with a sturdy iron frame.
+White leather-style upholstery makes it a rock star.
+Hard-working drafting tables.
+Ample storage moves it to the head of the class.
+The star pupil of any workspace.
+Sunny disposition.
+Is the warm, cuddly friend your little one will keep close by for a long time.
+A carefree spirit infuses [name] thanks to the side tables generous woven baskets.. [sic]
+Will be your most sophisticated dinner guest.
+Gives you all the support you need.
+Is a quick study.
+The ideal office companion for the executive on the go.
+
+IMPOSSIBLE/INCORRECT
+Casting ambient shadow and light.
+Will bedazzle in contemporary rooms.
+Casts warm, inviting character.
+Alive with the optimism and flair that only the roaring Twenties could offer.
+Refined executive office style.
+
+SOUNDS DUMB
+Its enveloping plush upholstery soothes the modern soul.
+With a burst of color and a warm embrace.
+A new form of luxury with a triptych of modern elements.
+21st century’s luxury-minded consumers.
+Eclectic style reveals a life well-lived.
+A beige top veneered in faux shagreen simulating the feel of sting ray skin.
+A silent butler for your home.
+Take the weight off your shoulders.
+Stands firmly and solidly.
+Embrace your inner armchair traveler.
+Would feel just as at home in the ship cabin of a world-weary traveler as it would in the study of a British Lord.
+Big bang theory.
+“X” marks the spot.
+Any soiree that requires pomp and circumstance.
+Welcome to the global economy.
+Spare but full of life.
+Every gastronomic fete.
+Makes a bold statement without shouting.
+…make an understated statement.
+Hollywood glamour and debonair style were de rigueur in the days of Monroe, Gable and Grant.
+Play it again, Sam.
+Dreams of beautiful seasonal decorating.
+This conjurer of daydreams and countryside fantasies.
+Embrace the power of the flower.
+Embraces the clean lines of modernity.
+Make the transition. Imagine a world where casual elegance reigns and casts a soft modern and flexible glow upon life’s most mundane tasks.
+It’s a mod, mod world.
+So every hour behind a home office desk can resemble the ever-elusive vacation day.
+Is wunderkind in the modern home office.
+Hard day? You need something that has your back.
+Shell artistry reigns.
+A coup for any modern maven.
+The ultimate office perk.
+Consider it a promotion.
+Its hidden drawer is a design coup.
+An enviable investment.
+Create a luxurious materiality that radiates exceptional living and aesthetic prowess.
+Offers substance and gravity.
+Interior designers love its powerful natural edges.
+Natural raw edges.
+For baby, but not babyish.
+Nestles baby in the comfort of the cutest king of the jungle ever.
+The accessory your little one will want to take from the crib to the playpen to the new stroller.
+Watch how baby smiles when cuddled-up with the adorable little lambs of the [baby blanket].
+All honorable elements in any traditional or classic interior.
+Vintage is often a synonym for what works best.
+Tucked in a secret corner.
+Formality is worth the fuss.
+Perfect for families looking for easy elegance.
+Transform the stodgy notion of the traditional table with new rustic-chic industrial flair.
+Fresh as a coastal breeze.
+Designed to curate precious objects.
+An ideal canvas for displaying books.
+Blends uptown chic and raw downtown style.
+At ease in the modern haven.
+Clean and solid.
+Ensures maximal seating options.
+Ideal for daily gatherings.
+Exotic notions.
+At home in the company of tastemakers.
+Capture the je ne sais quois of French design.
+Add uplifting vintage style.
+Anything but staid.
+Brings stylistic integrity to any living area.
+Creating conviviality in any interior.
+A modern investment.
+File it under function.
+Its rugged charm is complemented by a cosmopolitan character.
+Conveys contemporary sophistication.
+The antidote to sharp angled décor.
+Capacious and captivating.
+Offer a luxurious surround in any modern oasis.
+Powerful silhouette.
+Expertly crafted with exquisite tufts.
+An unofficial design landmark.
+A hybrid of illuminated luxury.
+Iconic country charm meets modern mystique in this [side table].
+Simple lines and purity of function.
+Honest and straightforward.
+
+CRINGEY/OLD
+Groovy, baby!
+Super fly.
+Looks far out on any sofa, transforming any living room into a swinging lounge.
+…in color and uber-chic style.
+So hip in the Fifties and Sixties.
+Gets a spiffy country look.
+Catches the eye with their fun style.
+Won’t fade with the fads.
+The curvy design adds a spunky touch.
+Designed for the hippest of hostesses.
+The bits and bobs that contribute to never-ending clutter.
+Cool-looking perch.
+A fresh maze design.
+Fresh style.
+Fresh modern lines.
+A groovy geometric pattern that accentuates its navy curves.
+Makes stashing remotes, CDs and magazines a breeze.
+Dramatic and dapper.
+Rock around the clock.
+Inspired by the chic metal cases used to store Hollywood audio-visual equipment.
+Oozes Mid-Century cool.
+Penthouse panache for any mod interior.
+Cushy-comfort seating.
+Project haughty glamour.
+Brings high-fashion character and intrigue to classy-contemporary décor.
+Adds engaging hues and extraordinary textures to swanky lofts.
