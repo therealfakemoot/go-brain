@@ -1,9 +1,8 @@
-module github.com/therealfakemoot/copy-bot
+module github.com/therealfakemoot/go-brain
 
-go 1.13
+go 1.15
 
 require (
-	github.com/therealfakemoot/go-markov v0.0.0-20180524015056-fc3e437f2485
-	github.com/therealfakemoot/gomarkov v0.0.0-20180818070845-1bd158c9a5f3
-	github.com/therealfakemoot/tongues v0.0.0-20180904195248-12bef25b8423
+	github.com/therealfakemoot/copy-bot v0.0.0-20210213232824-583bb146da4a
+	gonum.org/v1/gonum v0.8.2
 )
